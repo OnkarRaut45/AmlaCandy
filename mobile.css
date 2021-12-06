@@ -1,0 +1,52 @@
+.navbar{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content{
+  display: none;
+}
+
+.content1{
+  display: block;
+}
+
+.menu{
+  display: block;
+  text-align: center;
+  font-size: 21px;
+  padding: 16px;
+}
+
+.menu:hover{
+  color: #FD7014;
+}
+
+.logo{
+  display: none;
+}
+.mobileLogo{
+  display: block;
+  height: 197px;
+  position: relative;
+  bottom: 250px;
+  left: 180px;
+}
+
+.button h2{
+  margin: 40px;
+  font-size: 40px;
+}
+
+.button a{
+  padding: 40px;
+  border-radius: 50px;
+  font-size: 25px;
+}
+
+.dropDownMenu{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
