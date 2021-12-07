@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #222831;
+}
+/*   *********  NAVBAR CSS  *********  */
+.mobileLogo{
+  display: none;
+}
+
+.menu{
+  display: none;
+}
+
+.navbar{
+  background-color: #393E46;
+  overflow: hidden;
+}
+
+.logo{
+  height: 75px;
+  width: 84px;
+}
+
+.navbar a{
+  float: left;
+  color: #EEEEEE;
+  text-align: center;
+  /* padding: 14px 16px; */
+  text-decoration: none;
+  font-size: 21px;
+}
+
+.content{
+  padding: 25px;
+  margin-left: 25px;
+}
+
+.content:hover{
+  cursor: pointer;
+  color: #FD7014;
+  border-radius: 20px;
+}
+
+#container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#container::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  /* background: url('media/bg2.jpg') no-repeat center center/cover; */
+  background: url("images/amlaCandy.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.9;
+}
+
+.button{
+  text-align: center;
+  position: relative;
+  bottom: 7px;
+  right: 50px;
+}
+
+.button h2{
+  color: #330033;
+  padding: 25px;
+  font-weight: bolder;
+}
+
+.button a{
+  background-color: #330000;
+  padding: 20px;
+  border: 1px solid saddlebrown;
+  border-radius: 25px;
+  text-decoration: none;
+  color: white;
+}
+
+.button a:hover{
+  background-color: #FD7014;
+}
+
+.h-primary{
+  color: #330066;
+  position: relative;
+  bottom: 130px;
+  font-size: 50px;
+  text-align: center;
+}
+
+.h-secondary{
+  position: relative;
+  bottom: 130px;
+  font-size: 27px;
+  text-align: center;
+}
+
+/* ********* Products css ********* */
+
+#products{
+  position: relative;
+  bottom: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#products h1{
+  color: white;
+}
+.items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.itm {
+  border: 2px solid black;
+  background-color: #E59934;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+}
+
+.product2 {
+  flex-direction: row-reverse;
+}
+.prImage{
+  height: 250px;
+}
+
+.prName{
+  text-align: center;
+  padding-bottom: 20px;
+  font-size: 2rem;
+}
+.prDetail{
+  font-family: 'Arvo', serif;
+  text-align: -webkit-center;
+  padding: 15px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+/* *********  contact us css  ********** */
+
+#ContactUS {
+  background-color: darkslategrey;
+  margin-top: 20px;
+}
+.contactInfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 35px 300px;
+}
+
+#ContactUS h1{
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+.ownerImage{
+  height: 270px;
+  border-radius: 10px;
+  padding: 0 25px 16px 0px;
+  border-right: 5px solid orange;
+}
+
+.owner a{
+  text-decoration: none;
+}
+
+.owner h3{
+  text-align: center;
+  color: Black;
+  font-size: 25px;
+  font-weight: normal;
+  margin: 10px;
+  padding: 10px;
+}
+
+.owner h3:hover{
+  color: white;
+  border-bottom: 2px solid orange;
+}
+
+.wpNumber{
+  display: flex;
+  flex-direction: row;
+}
+
+.wpLogo{
+  height: 35px;
+  padding: 0 5px 0 16px;
+}
+
+.number{
+  font-size: 25px;
+  padding: 5px 0 0 11px;
+}
+
+.locaton{
+  display: flex;
+  flex-direction: row;
+}
+
+.locatonLogo{
+  height: 35px;
+  padding: 30px 5px 0 11px;
+}
+
+.adress {
+  font-size: 1.5rem;
+  padding: 35px 5px 0 15px;
+}
+
+.delivery{
+  display: flex;
+  flex-direction: row;
+}
+
+.deliveryLogo{
+  height: 45px;
+  padding: 30px 5px 0 15px;
+}
+
+.dDetail {
+  font-size: 1.5rem;
+  padding: 35px 5px 0 11px;
+}
+
+.peru{
+  color: peru;
+}
+
+footer{
+  background-color: #E59934;
+  text-align: center;
+  height: 5px;
+  padding: 50px;
+  font-size: 20px;
+}
